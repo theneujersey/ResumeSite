@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #e29c48;
+  color: #438ccc;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #9a561a;
+  color: #275f90;
 }
 .light {
   font-weight: 400;
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/NYCredish.jpg) no-repeat bottom center scroll;
+  background: url(../img/NYCempire.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -227,7 +227,7 @@ a:focus {
   height: 1000px;
   padding: 50px 0;
   color: white;
-  background: url(../img/RIO2.jpg) no-repeat center center scroll;
+  background: url(../img/RIOblue.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -239,7 +239,7 @@ a:focus {
   height: 1000px;
   padding: 50px 0;
   color: white;
-  background: url(../img/LON.jpg) no-repeat center center scroll;
+  background: url(../img/LONblue.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -267,16 +267,17 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #e29c48;
-  color: #e29c48;
-  background-color: transparent;
+  border: 1px solid #438ccc;
+  outline: none;
+  color: white;
+  background-color: #438ccc;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #e29c48;
+  border: 1px solid #275f90;
   outline: none;
-  color: black;
-  background-color: #e29c48;
+  color: white;
+  background-color: #275f90;
 }
 ul.banner-social-buttons {
   margin-top: 0;

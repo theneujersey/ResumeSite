@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #e29c48;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #9a561a;
 }
 .light {
   font-weight: 400;
@@ -222,32 +222,39 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.influences-section {
   width: 100%;
+  height: 1000px;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/RIO2.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-#map {
+.portfolio-section {
   width: 100%;
-  height: 200px;
-  margin-top: 100px;
+  height: 1000px;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/LON.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px;
   }
-  .download-section {
+  .influences-section {
     padding: 100px 0;
   }
-  #map {
-    height: 400px;
-    margin-top: 250px;
+  .portfolio-section {
+    padding: 100px 0;
   }
 }
 .btn {
@@ -260,16 +267,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #e29c48;
+  color: #e29c48;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #e29c48;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #e29c48;
 }
 ul.banner-social-buttons {
   margin-top: 0;
